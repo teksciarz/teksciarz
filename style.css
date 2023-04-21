@@ -4,7 +4,7 @@
     --bgColor: #223344;
     --bgColor2: #090a0f;
     --accentColor: #FFF;
-    --font: 'Bebas Neue', sans-serif;
+    --font: 'Bebas+Neue', sans-serif;
     --delay: .3s;
 }
 
@@ -184,7 +184,7 @@ body {
 }
 
 .popup-quote {
-    font-family : Bebas Neue, serif;
+    font-family : Bebas+Neue, serif;
     font-style : italic;
     position: flex;
     color: var(--accentColor);
