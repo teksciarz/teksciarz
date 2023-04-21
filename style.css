@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas:400,700&display=swap');
 
 :root {
     --bgColor: #223344;
     --bgColor2: #090a0f;
     --accentColor: #FFF;
-    --font: 'Bebas+Neue', sans-serif;
+    --font: 'Bebas', sans-serif;
     --delay: .3s;
 }
 
@@ -184,7 +184,7 @@ body {
 }
 
 .popup-quote {
-    font-family : Bebas+Neue, serif;
+    font-family : Bebas, serif;
     font-style : italic;
     position: flex;
     color: var(--accentColor);
