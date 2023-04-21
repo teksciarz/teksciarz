@@ -1,32 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-	<title>Teksciarz</title>
-	<script src="https://kit.fontawesome.com/b25b33ee96.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekściarz</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/avatar.png" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-</head>
-<body>
-	<div id="wrapper">
-		<header>
-			<img src="avatar.png" id="avatar" alt="Teksciarz" width="200" height="200">
-			<h1>Tekściarz</h1>
-		</header>
-		<main>
-			<div id="links">
-				<ul id="linklist">
-					<a href="https://instagram.com/teksciarz"><li class="button"><i class="fab fa-instagram"></i> Instagram</li></a>
-				</ul>
-				<p>W przyszłości...</p>
-				<ul id="linklist">
-					<a href="https://youtube.com/@teksciarz"><li class="button"><i class="fab fa-youtube"></i> YouTube</li></a>
-					<a href="https://twitch.tv/teksciarz"><li class="button"><i class="fab fa-twitch"></i> Twitch</li></a>
-				</ul>
-			</div>
-		</main>
-	</div>
-</body>
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="images/avatar.png" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="images/logo_allbarr.png" target="_blank">
+            <img src="images/logo_allbarr.png" alt="Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          Siap melayani, siap jujur & siap Bertanggung jawab | Wajib Halal.
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName">
+      Tekściarz
+    </div>
+
+    <div id="slogan"></div>
+    <div id="hashtag">
+      #teksciarz #cytaty #przyjaźń #miłość #motywacja
+    </div>
+    <div id="links">
+      <a class="link" href="https://instagram.com/teksciarz" target="_blank">
+        Obserwuj na Instagramie
+      </a>
+      <a class="link" href="https://youtube.com/@teksciarz" target="_blank">
+        YouTube (w przyszłości)
+      </a>
+      <a class="link" href="https://twitch.tv/teksciarz" target="_blank">
+        Twitch (w przyszłości)
+      </a>
+    </div>
+
+
+
+  </body>
 </html>
